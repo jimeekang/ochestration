@@ -1,0 +1,8 @@
+name = "quick_edit"
+description = "범위와 정답이 명확한 저위험 소규모 수정 담당."
+model = "gpt-6-luna"
+model_reasoning_effort = "high"
+developer_instructions = """
+.orchestration/roles/quick_edit.md를 읽고 그대로 따른다.
+부모가 준 범위·금지·완료 조건을 지키고 .orchestration/report.md 형식으로 보고한다.
+"""

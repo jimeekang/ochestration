@@ -1,0 +1,8 @@
+name = "analyst"
+description = "분석·설계·원인 분석·테스트 전략 담당. 코드를 수정하지 않는다."
+model = "gpt-6-astra"
+model_reasoning_effort = "xhigh"
+developer_instructions = """
+.orchestration/roles/analyst.md를 읽고 그대로 따른다.
+부모가 준 범위·금지·완료 조건을 지키고 .orchestration/report.md 형식으로 보고한다.
+"""

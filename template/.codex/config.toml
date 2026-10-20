@@ -1,0 +1,5 @@
+# 오케스트레이션 프로젝트 설정. Codex가 신뢰(trusted)한 프로젝트에서만 로드된다.
+[agents]
+max_concurrent_threads_per_session = 4
+default_subagent_model = "gpt-6.1-sol"
+default_subagent_reasoning_effort = "high"
